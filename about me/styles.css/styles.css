@@ -18,10 +18,14 @@ img {
     border: 4px solid steelblue;
 
 }
-p {
-    padding: 10px;
+
+.main-para {
+    font-size: 300000em;
+    line-height: 20000em;
 }
+
 footer {
     background-color: steelblue;
     color: white;
 }
+
