@@ -28,9 +28,35 @@ type of border,
 and color of the border. Padding between the image and the border. A box shadow around the image border with zero offset and depth of 30px in gray.*/
 
 p {
-    padding: 10px;
+    padding: 0;
 } /*Padding between the paragraph content and the border is set to 10 pixels.*/
 
-body {
-    font-family: 'Roboto';
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
