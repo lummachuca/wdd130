@@ -10,9 +10,10 @@ nav a {
     display: block;
     padding: 10px;
 } /* The foreground or font color will be white. The display will change from the default of inline to block. Each anchor tag will have padding of 20px;*/
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 h1 {
     color: steelblue;
+    font-family: 'Rock Salt';
 } /*The foreground, font color is set to steelblue.*/
 
 img {
@@ -29,3 +30,7 @@ and color of the border. Padding between the image and the border. A box shadow 
 p {
     padding: 10px;
 } /*Padding between the paragraph content and the border is set to 10 pixels.*/
+
+body {
+    font-family: 'Roboto';
+}
