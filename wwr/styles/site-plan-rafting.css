@@ -5,10 +5,8 @@
     --seconday-color: #57CC99;
     --accent1-color: #38A3A5;
     --accent2-color: #22577A;
-
     --heading-font: 'Arial Black', serif;
     --paragraph-font: 'Arial Black', serif;
-
     --nav-background-color: #22577A;
     --nav-link-color: #C7F9CC;
     --nav-hover-link-color: #00AFB9;
@@ -19,16 +17,20 @@ body {
     font-family: Arial;
     max-width: 960px;
     padding: 20px;
-};
+}
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--primary-color);
 }
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: #38A3A5;
 }
 
 p {
@@ -36,7 +38,7 @@ p {
 }
 
 nav {
-    background-color: var(--nav-background-color);
+    background-color: #22577A;
     font-size: 1.2rem;
     display: flex;
 }
@@ -48,11 +50,12 @@ nav a {
     padding: 1rem;
 }
 
-nav a:link, nav a:visited {
+nav a:link,
+nav a:visited {
     color: var(--nav-link-color);
 }
 
 nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+    background-color: #0081A7;
 }
