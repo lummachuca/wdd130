@@ -1,0 +1,22 @@
+span.highlight {
+    background-color: yellow;
+}
+
+h1.highlight {
+    background-color: pink;
+}
+
+.notebook {
+    border: 4px solid #666;
+    padding: .5em; /*Entre mas grande el numero mas chico va a encorralar el texto */
+}
+
+.notebook.warning {
+    border-color: orange;
+    font-weight: bold;
+}
+
+.notebox.danger {
+    border-color: red;
+    font-weight: bold;
+}
