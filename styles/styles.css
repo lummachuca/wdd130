@@ -3,23 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav { 
+
+nav {
     background-color: steelblue;
-padding: 20px;
-} /*This CSS rule names the <nav>element as the selected element to apply two style declarations. The background color will be the color "steelblue",
+    padding: 5px;
+    justify-content: space-between;
+}
+
+header {
+}
+
+/*This CSS rule names the <nav>element as the selected element to apply two style declarations. The background color will be the color "steelblue",
 which is a valid,
 named color. Padding,
 or area between the content and border is set to 10 pixels for readability.¨*/
 nav a {
     color: white;
     display: block;
-    padding: 10px;
-} /* The foreground or font color will be white. The display will change from the default of inline to block. Each anchor tag will have padding of 20px;*/
+    padding: 10px 8px;
+    text-decoration: none;
+    font-weight: bold;    
+}
+
+/* The foreground or font color will be white. The display will change from the default of inline to block. Each anchor tag will have padding of 20px;*/
 
 h1 {
     color: steelblue;
     font-family: 'Rock Salt';
-} /*The foreground, font color is set to steelblue.*/
+}
+
+/*The foreground, font color is set to steelblue.*/
 
 img {
     width: 150px;
@@ -27,17 +40,22 @@ img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-} /*a set width with a height that will adjust dynamically to fit the image's aspect ratio.
+    border-radius: 10px;
+}
+
+/*a set width with a height that will adjust dynamically to fit the image's aspect ratio.
  A border shortcut that names the width,
 type of border,
 and color of the border. Padding between the image and the border. A box shadow around the image border with zero offset and depth of 30px in gray.*/
 
 p {
     padding: 0;
-} /*Padding between the paragraph content and the border is set to 10 pixels.*/
+}
+
+/*Padding between the paragraph content and the border is set to 10 pixels.*/
 
 main {
-    max-width: 840px;
+    max-width: 80%;
 }
 
 aside {
@@ -48,6 +66,11 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+}
+
+aside h2 {
+    position: relative;
+
 }
 
 aside img {
@@ -61,6 +84,13 @@ main img {
     float: right;
 }
 
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
@@ -70,18 +100,9 @@ footer {
 /*Class Selectors*/
 .box {
     margin: 1rem;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     background-color: #bae0ff;
     color: #2274A5;
 }
 
-aside {
-    width: 20em;
-    text-align: center;
-}
-
-aside h2 {
-    position: relative;
-    
-}

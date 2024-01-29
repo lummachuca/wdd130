@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(/wwr/images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+:root {
+    --primary-color: #80ED99;
+    --seconday-color: #57CC99;
+    --accent1-color: #38A3A5;
+    --accent2-color: #22577A;
+    --heading-font: 'Arial Black', serif;
+    --paragraph-font: 'Arial Black', serif;
+    --nav-background-color: #22577A;
+    --nav-link-color: #C7F9CC;
+    --nav-hover-link-color: #00AFB9;
+    --nav-hover-background-color: #0081A7;
+}
+
+img {
+    width: 500px;
+}
+
+.icon {
+    height: 50px;
+    width: auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(25, 178, 198);
+
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    padding: 10px 8px;
+    border-radius: 40%;
+}
+
+header a {
+    text-decoration: none;
+    padding: 10px 8px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: rgb(255, 255, 255);
+}
+
+main .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+main article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1aa6ad73;
+    padding: 30px;
+    width: 80%;
+    border-radius: 20px;
+}
+main article:hover {
+    background-color: #1aa6adbf;
+}
+main article p {
+    width: 50%;
+    padding: 55px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+main .history {
+    padding: 20px;
+}
+
+main .history p {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+main .history h2 {
+    padding: 10px;
+    
+}
