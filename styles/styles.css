@@ -38,6 +38,7 @@ h1 {
     color: steelblue;
     font-family: 'Rock Salt';
     border-bottom: 5px solid rgb(255, 0, 200);
+    grid-area: 1;
 }
 /*The foreground, font color is set to steelblue.*/
 h2 {
@@ -142,4 +143,6 @@ div {
     padding: 1rem;
     background-color: #eee;
     color: #000;
+    display: grid;
+
 }
