@@ -133,7 +133,6 @@ main .history img {
     align-items: center;
 }
 
-
 main .container {
     display: flex;
     justify-content: center;
@@ -160,7 +159,7 @@ main .adventure .container-img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding:10px;
+    padding: 10px;
 }
 
 footer {
