@@ -27,9 +27,7 @@ body {
     --nav-hover-background-color: #0081A7;
 }
 
-img {
-    width: 500px;
-}
+
 
 .icon {
     height: 50px;
@@ -127,6 +125,14 @@ main .history h1 {
     font-size: 1.6em;
 }
 
+main .history img {
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main .container {
     display: flex;
     justify-content: center;
@@ -142,7 +148,7 @@ main .adventure h2 {
 }
 
 main .adventure img {
-    height: 250px;
+    height: 200px;
     width: auto;
     border-radius: 10px;
     box-shadow: 8px 8px rgba(0, 0, 0, 0.383);
@@ -165,4 +171,5 @@ footer {
 
 footer .sociallinks img {
     height: 30px;
+    width: auto;
 }
