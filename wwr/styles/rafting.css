@@ -36,30 +36,32 @@ img {
     width: auto;
 }
 
-header .container {
+header .container lu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: rgb(25, 178, 198);
-
+    background-color: #1aa6ad73;
+    list-style: none;
+    padding: 5px;
 }
 
-header img {
+header div img {
     height: 50px;
     width: auto;
     padding: 10px 8px;
     border-radius: 40%;
 }
 
-header a {
+header li a {
     text-decoration: none;
     padding: 10px 8px;
     font-size: 1.4em;
     font-weight: bold;
+    color: #fff;
 }
 
 header a:hover {
-    color: rgb(255, 255, 255);
+    color: #C7F9CC;
 }
 
 main .hero {
@@ -68,7 +70,7 @@ main .hero {
     align-items: center;
 }
 
-main  h1 {
+main h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,28 +87,82 @@ main article {
     width: 80%;
     border-radius: 20px;
 }
+
 main article:hover {
     background-color: #1aa6adbf;
 }
+
 main article p {
     width: 50%;
     padding: 55px;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.6em;
+    text-align: end;
 }
 
 main .history {
     padding: 20px;
+    width: 80%;
+}
+
+main .history div {
+    display: flex;
 }
 
 main .history p {
     padding: 10px;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-style: italic;
+    width: 100%;
+    display: flex;
+    text-align: center;
 }
 
-main .history h2 {
+main .history h1 {
     padding: 10px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+}
+
+main .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .adventure h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.6em;
+}
+
+main .adventure img {
+    height: 250px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.383);
+
+}
+
+main .adventure .container-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
+
+footer .sociallinks img {
+    height: 30px;
 }
