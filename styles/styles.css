@@ -6,12 +6,14 @@
 
 nav {
     background-color: steelblue;
-    padding: 5px;
-    justify-content: space-between;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-header {
-}
+/*header {
+}*/
 
 /*This CSS rule names the <nav>element as the selected element to apply two style declarations. The background color will be the color "steelblue",
 which is a valid,
@@ -20,9 +22,10 @@ or area between the content and border is set to 10 pixels for readability.¨*/
 nav a {
     color: white;
     display: block;
-    padding: 10px 8px;
+    padding: 0.5rem;
     text-decoration: none;
-    font-weight: bold;    
+    font-weight: 700;    
+    font-size: 1.2rem;
 }
 
 /* The foreground or font color will be white. The display will change from the default of inline to block. Each anchor tag will have padding of 20px;*/
@@ -30,6 +33,7 @@ nav a {
 h1 {
     color: steelblue;
     font-family: 'Rock Salt';
+    border-bottom: 5px solid rgb(255, 0, 200);
 }
 
 /*The foreground, font color is set to steelblue.*/
@@ -54,9 +58,8 @@ p {
 
 /*Padding between the paragraph content and the border is set to 10 pixels.*/
 
-main {
-    max-width: 80%;
-}
+/*main {
+} */
 
 aside {
     width: 20rem;
@@ -66,6 +69,9 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2 {
@@ -85,10 +91,8 @@ main img {
 }
 
 main {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+grid-column: 2/3;
+margin: 1rem;
 }
 
 footer {
@@ -97,12 +101,13 @@ footer {
     text-align: center;
 }
 
-/*Class Selectors*/
-.box {
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    background-color: #bae0ff;
-    color: #2274A5;
+header, footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
+/*Class Selectors*/
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
