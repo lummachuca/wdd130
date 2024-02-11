@@ -284,11 +284,13 @@ select {
 }
 
 button {
-    background-color: rgb(16, 16, 131);
-    color: aliceblue;
+    background-color: rgb(255, 223, 93);
+    color: rgb(8, 34, 56);
     height: 36px;
     width: 350px;
     border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
     border: none;
     cursor: pointer;
     transition: background-color 0.15s;
@@ -296,9 +298,10 @@ button {
 }
 
 button:hover {
-    background-color: rgb(41, 41, 180);
+    background-color: rgb(248, 228, 148);
 }
 
 button:active {
-    background-color: rgb(60, 60, 244);
+    background-color: rgb(153, 138, 80);
+    color: #337c74;
 }
